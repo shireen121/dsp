@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
-I will use nano because it seems to be the easiest to learn quickly and I am new to programming.
+>> I will use nano because it seems to be the easiest to learn quickly and I am new to programming.
 
 --
 
@@ -89,7 +89,7 @@ I will use nano because it seems to be the easiest to learn quickly and I am new
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
-I will use Atom. I had it on my laptop already when learning to use python and it is pretty straightforward. I like that it is color coded to help distinguish commands and that there are drop-down suggestions to help you write your code. There are many shortcuts that are the same for most Mac applications such as command + N and command + S to open a new file and save a file, respectively. 
+>> I will use Atom. I had it on my laptop already when learning to use python and it is pretty straightforward. I like that it is color coded to help distinguish commands and that there are drop-down suggestions to help you write your code. There are many shortcuts that are the same for most Mac applications such as cmd + N and cmd + S to open a new file and save a file, respectively. There is also a Command Palette that can be accessed easily (Cmd + Shift + P) to see all key shortcuts that are possible in Atom which I think will be very useful. You can customize the editor in settings and also set key commands in keybindings
  
 
  
