@@ -19,15 +19,15 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > ##Commands##
-ls: lists files and folders in the working directory
-ls options:
-	-a: shows files that are hidden (denoted by a “.” at the beginning of file name)
-	-l: lists all contents of a directory in long format
-	-t: orders files and directories by time last modified
-pwd: lists path of directory (“print working directory”)
-cd [directory name]: way to switch into a different directory (“change directory”)
-cd.. : moves back one directory
+> > **Commands**
+ls: lists files and folders in the working directory  
+ls options:  
+	-a: shows files that are hidden (denoted by a “.” at the beginning of file name)  
+	-l: lists all contents of a directory in long format  
+	-t: orders files and directories by time last modified  
+pwd: lists path of directory (“print working directory”)  
+cd [directory name]: way to switch into a different directory (“change directory”)  
+cd.. : moves back one directory  
 mkdir [directory name]: creates a new directory in the current working directory
 touch [file name]: creates a new file in the current working directory
 cp [source file/directory] [destination file/directory]: copies files, you can copy multiple by putting in multiple file names for the first argument, “*” can select groups of files to copy
