@@ -28,28 +28,28 @@ ls options:
 pwd: lists path of directory (“print working directory”)  
 cd [directory name]: way to switch into a different directory (“change directory”)  
 cd.. : moves back one directory  
-mkdir [directory name]: creates a new directory in the current working directory
-touch [file name]: creates a new file in the current working directory
-cp [source file/directory] [destination file/directory]: copies files, you can copy multiple by putting in multiple file names for the first argument, “*” can select groups of files to copy
-mv [source file/directory] [destination file/directory]: moves files or directories, works similar to cp. It can also be used to rename a file using the old file as first argument and the new file as the second
-rm: deletes files 
-rm -r: deletes directories
-echo: echoes an input back to the terminal as an output
->: redirects standard output to a file 
-cat: outputs content of a file to the terminal
->>: takes stdout and appends it to the file on the right
-<: takes stdin from file to the right and inputs it into the program on the left
-| : “pipe” takes stdout of cmd to left and pipes it as standard input to the command on the right 
-sort: sorts stdin alphabetically 
-uniq: filters out adjacent duplicates
-grep: searches files for lines that match a pattern and returns those results (similar to filter “content that contains…”) - case sensitive
-grep -i: enables to be case insensitive
-grep -R:  searches all files in a directory and outputs filenames and lines containing matched results
-grep -Rl: searches all files in a directory and outputs only filenames with matched results
-sed: stream editor - modifies strings in an expression and outputs it (“find and replace” functionality), only finds the first instance of the word to replace in a given line
-	s: “substation” - always use with sed
-	format: sed ’s/find_string/replace_string’ [file]
-	g: replaces all instances in a line instead of just first
+mkdir [directory name]: creates a new directory in the current working directory  
+touch [file name]: creates a new file in the current working directory  
+cp [source file/directory] [destination file/directory]: copies files, you can copy multiple by putting in multiple file names for the first argument, “*” can select groups of files to copy  
+mv [source file/directory] [destination file/directory]: moves files or directories, works similar to cp. It can also be used to rename a file using the old file as first argument and the new file as the second  
+rm: deletes files   
+rm -r: deletes directories  
+echo: echoes an input back to the terminal as an output  
+>: redirects standard output to a file  
+cat: outputs content of a file to the terminal  
+>>: takes stdout and appends it to the file on the right  
+<: takes stdin from file to the right and inputs it into the program on the left  
+| : “pipe” takes stdout of cmd to left and pipes it as standard input to the command on the right  
+sort: sorts stdin alphabetically  
+uniq: filters out adjacent duplicates  
+grep: searches files for lines that match a pattern and returns those results (similar to filter “content that contains…”) - case sensitive  
+grep -i: enables to be case insensitive  
+grep -R:  searches all files in a directory and outputs filenames and lines containing matched results  
+grep -Rl: searches all files in a directory and outputs only filenames with matched results  
+sed: stream editor - modifies strings in an expression and outputs it (“find and replace” functionality), only finds the first instance of the word to replace in a given line  
+	s: “substation” - always use with sed  
+	format: sed ’s/find_string/replace_string’ [file]  
+	g: replaces all instances in a line instead of just first  
 
 ---
 
