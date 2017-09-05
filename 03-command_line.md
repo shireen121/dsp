@@ -30,7 +30,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 **cd.. :** moves back/up one directory  
 **mkdir [directory name]:** creates a new directory in the current working directory  
 **touch [file name]:** creates a new file in the current working directory  
-**cp [source file/directory] [destination file/directory]:** copies files from one directory to another
+**cp [source file/directory] [destination file/directory]:** copies files from one directory to another  
 **mv [source file/directory] [destination file/directory]:** moves or renames files or directories, works similar to cp.
 **rm:** deletes files   
 **rm -r:** deletes directories  
