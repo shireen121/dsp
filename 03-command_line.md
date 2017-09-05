@@ -25,7 +25,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
    -a: shows files that are hidden (denoted by a “.” at the beginning of file name)  
    -l: lists all contents of a directory in long format  
    -t: orders files and directories by time last modified  
-**pwd:** lists path of current directory 
+**pwd:** lists path of current directory  
 **cd [directory name]:** way to switch into a different directory (“change directory”)  
 **cd.. :** moves back/up one directory  
 **mkdir [directory name]:** creates a new directory in the current working directory  
