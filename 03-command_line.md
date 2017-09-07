@@ -63,13 +63,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > `ls` - lists files and folders in the current working directory
-`ls -a` -  lists all files and folder in the working directory including hidden files (which start with “.”)
-`ls -l`  - lists files and folders of a directory in long format
-`ls -lh` - lists files and folders of a directory in long format with readable file size 
-`ls -lah` - lists files, folders and hidden files of a directory in long format with readable file size 
-`ls -t`  - lists all files and folders in order by time last modified
-`ls -Glp` - lists files and folders in long format without group names but with a slash at the end of folders
+> > `ls` - lists files and folders in the current working directory  
+`ls -a` -  lists all files and folder in the working directory including hidden files (which start with “.”)  
+`ls -l`  - lists files and folders of a directory in long format  
+`ls -lh` - lists files and folders of a directory in long format with readable file size  
+`ls -lah` - lists files, folders and hidden files of a directory in long format with readable file size  
+`ls -t`  - lists all files and folders in order by time last modified  
+`ls -Glp` - lists files and folders in long format without group names but with a slash at the end of folders  
 
 ---
 
