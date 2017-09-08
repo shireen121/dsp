@@ -80,7 +80,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 > > `ls -d` Displays only directories.
 `ls -m`	Displays the names as a comma-separated list.
 `ls -r`	Displays files in reverse order.
-`ls -R'	Displays subdirectories as well.
+`ls -R`	Displays subdirectories as well.
 `ls -t`	Displays newest files first. (based on timestamp)
 
 ---
