@@ -89,7 +89,6 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > Xargs takes an input from stdin and executes a command to echo over it, meaning it will output what is in the stdin. It has a number of options that can tweak how it is output such as specifying the number of characters on a line. If I were to input $ xargs -n 3 and my stdin is 'hello my name is shireen' it would result with 'hello my name' on the first line and 'is shireen' on the second. 
  
 
