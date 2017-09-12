@@ -1,6 +1,6 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
 
->> In this exercise we want to demonstrate the bias that exists depending on who you survey to extract observations. To demonstrate this, we will look at how many children are in a household and compare observations from the NSFG respondents to observations from hypothetically asking each child how many kids are in their family. The graphical results and means of the two surveys are below showing how the biased results will make it seem as if a larger number of families have a larger number of kids than in actuality.See below for the code, graph and mean calculations.
+In this exercise we want to demonstrate the bias that exists depending on who you survey to extract observations. To demonstrate this, we will look at how many children are in a household and compare observations from the NSFG respondents to observations from hypothetically asking each child how many kids are in their family. The graphical results and means of the two surveys are below showing how the biased results will make it seem as if a larger number of families have a larger number of kids than in actuality.See below for the code, graph and mean calculations.
 
 ```Python
 pmf = thinkstats2.Pmf(resp.numkdhh, label='numkdhh')
