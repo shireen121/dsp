@@ -9,3 +9,14 @@ biased_pmf = BiasPmf(pmf, label='observed')
 thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf, biased_pmf])
 thinkplot.Config(xlabel='Number of Kids', ylabel='PMF')
+```
+
+![graph](https://github.com/shireen121/dsp/blob/master/img/Actual_vs_Bias_Graph.png)
+
+```python
+print('Actual mean', pmf.Mean())
+print('Observed mean', biased_pmf.Mean())
+```
+
+Actual mean 1.02420515504
+Observed mean 2.40367910066
