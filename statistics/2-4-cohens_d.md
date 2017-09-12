@@ -15,5 +15,5 @@ def CohenEffectSize(group1, group2):
     return d
     
 CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb) 
-    ```
+```
 
