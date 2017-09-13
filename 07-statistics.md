@@ -100,8 +100,7 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
+>> It seems that one of the main differences between frequentist and Bayesian statistics is that that Bayesian statistics will take into account data that might alter the probability of a frequentist statistics calculation. Bayesian statistics accounts for human logic or information that one knows that can affect the probability whereas frequentist statistics consider only objective observations, so regardless of who calculates the probability the answer will be the same. Bayesian statistics can be modified and tweaked as more information becomes available, whereas a frequentist believes in the probability being what the common result(s) are if a given scenarios is run over and over again with different random samples.
 ---
 
 ## <a name="section-e"></a>5.  Optional Exercises
