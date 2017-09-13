@@ -11,3 +11,13 @@ pmf = thinkstats2.Pmf(random_nums, label='first')
 thinkplot.Pmf(pmf, linewidth=0.1)
 thinkplot.Show(xlabel='random num', ylabel='PMF')
 ```
+![pmf](https://github.com/shireen121/dsp/blob/master/img/pmf.png)
+
+```python
+# Plot as CDF
+cdf = thinkstats2.Cdf(random_nums, label='random_num')
+thinkplot.Cdf(cdf)
+thinkplot.Config(xlabel='random num', ylabel='CDF', loc='upper left')
+```
+
+![cdf](https://github.com/shireen121/dsp/blob/master/img/cdf.png)
