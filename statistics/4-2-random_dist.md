@@ -1,3 +1,13 @@
 [Think Stats Chapter 4 Exercise 2](http://greenteapress.com/thinkstats2/html/thinkstats2005.html#toc41) (a random distribution)
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+In this problem, we generate 1,000 random numbers between 0 and 1 using the numpy random number generator and plot the results as a PMF and a CDF. These show that the sample is a uniform distribution, although the PMF seems to have a few holes it is simply because the PMF is graphing every unique value as a separate line. The CDF more clearly shows that it is a uniform distribution.
+
+```python 
+# Generate 1000 random numbers
+random_nums = np.random.random(1000)
+
+# Plot as PMF
+pmf = thinkstats2.Pmf(random_nums, label='first')
+thinkplot.Pmf(pmf, linewidth=0.1)
+thinkplot.Show(xlabel='random num', ylabel='PMF')
+```
